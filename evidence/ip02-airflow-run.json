@@ -1,0 +1,4 @@
+{
+  "status": "UNVERIFIED",
+  "detail": "Full profile not running, so no Airflow DAG run or asset event is available."
+}

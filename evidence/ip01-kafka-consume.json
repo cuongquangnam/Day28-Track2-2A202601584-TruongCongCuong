@@ -1,0 +1,15 @@
+{
+  "status": "READY",
+  "topic": "data.raw",
+  "partition": 0,
+  "offset": 0,
+  "key": "doc-ip03-delta",
+  "headers": {
+    "idempotency-key": "doc-ip03-delta",
+    "traceparent": "00-0505c680ef64b621e2502bc229bef017-2246c43719226b75-01",
+    "schema_version": "1"
+  },
+  "has_idempotency_key": true,
+  "has_traceparent": true,
+  "payload_sample": "{\"schema_version\":\"1\",\"event_id\":\"00e1b0356f394f9d9d87f00975230b69\",\"idempotency_key\":\"doc:doc-ip03-delta:016a8ab972a0b39b02f80b29e043f020\",\"entity_id\":\"doc-ip03-delta\",\"occurred_at\":\"2026-09-03T13:50:47.384865Z\",\"producer\":\"lab28-api\",\"traceparent\":\"00-0505c680ef64b621e2502bc229bef017-54696ea746bc02e2-01\",\"payload\":{\"kind\":\"document\",\"doc_id\":\"doc-ip03-delta\",\"title\":\"IP03 — Spark và Delta Lake giữ lịch sử dữ liệu\",\"text\":\"Spark thực hiện lệnh MERGE theo idempotency_key nên phát lại cùng một sự kiện chỉ tạo ra đúng một dòng trong bảng Delta. Mỗi lần ghi tạo một phiên bản mới trong transaction log, cho phép du hành thời gian: đọc lại bảng ở phiên bản cũ để so sánh số dòng và schema. Bằng chứng phục vụ luôn ghi kèm delta_version, nhờ đó câu trả lời của mô hình có thể kiểm chứng lại sau nhiều tháng.\",\"locale\":\"vi\",\"tags\":[\"ip03\",\"spark\",\"delta\"]}}"
+}

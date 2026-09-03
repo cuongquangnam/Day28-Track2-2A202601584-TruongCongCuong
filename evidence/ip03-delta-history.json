@@ -1,0 +1,4 @@
+{
+  "status": "UNVERIFIED",
+  "detail": "No Delta tables exist yet; run full Airflow/Spark pipeline to create transaction history."
+}

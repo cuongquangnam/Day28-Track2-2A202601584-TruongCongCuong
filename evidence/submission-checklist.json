@@ -1,0 +1,27 @@
+{
+  "status": "PARTIAL_SUBMISSION_PACK_READY",
+  "generated_files": [
+    "architecture-ownership.md",
+    "evidence-generation-output.json",
+    "fast-suite-output.txt",
+    "integration-report.json",
+    "ip02-airflow-run.json",
+    "ip03-delta-history.json",
+    "ip04-feast-online.json",
+    "ip05-qdrant-search.json",
+    "ip06-mlflow-release.json",
+    "ip07-vllm-identity.json",
+    "ip08-gateway.json",
+    "ip09-grafana-dashboards.json",
+    "ip09-prometheus-targets.json",
+    "ip10-trace.json",
+    "load-profile.json"
+  ],
+  "root_integration_report": "integration-report.json",
+  "known_gaps": [
+    "Airflow/Spark/Delta full profile evidence not generated locally",
+    "Real GPU-backed vLLM identity not configured",
+    "LangSmith credential/gate not configured",
+    "Failure/recovery and GitOps drift/rollback evidence still need a live demo run"
+  ]
+}

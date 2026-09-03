@@ -1,0 +1,57 @@
+{
+  "status": "READY",
+  "url": "http://localhost:9090/api/v1/targets",
+  "active_target_count": 10,
+  "targets": [
+    {
+      "job": "lab28-airflow-batch",
+      "health": "up",
+      "scrapeUrl": "http://pushgateway:9091/metrics"
+    },
+    {
+      "job": "lab28-api",
+      "health": "up",
+      "scrapeUrl": "http://api:8000/metrics"
+    },
+    {
+      "job": "lab28-collector",
+      "health": "up",
+      "scrapeUrl": "http://otel-collector:8888/metrics"
+    },
+    {
+      "job": "lab28-feast",
+      "health": "up",
+      "scrapeUrl": "http://feast:8000/metrics"
+    },
+    {
+      "job": "lab28-gateway",
+      "health": "up",
+      "scrapeUrl": "http://gateway:9901/stats/prometheus"
+    },
+    {
+      "job": "lab28-kafka",
+      "health": "up",
+      "scrapeUrl": "http://kafka-exporter:9308/metrics"
+    },
+    {
+      "job": "lab28-mlflow",
+      "health": "up",
+      "scrapeUrl": "http://api:8000/metrics"
+    },
+    {
+      "job": "lab28-prometheus",
+      "health": "up",
+      "scrapeUrl": "http://prometheus:9090/metrics"
+    },
+    {
+      "job": "lab28-qdrant",
+      "health": "up",
+      "scrapeUrl": "http://qdrant:6333/metrics"
+    },
+    {
+      "job": "lab28-vllm-optional",
+      "health": "down",
+      "scrapeUrl": "http://host.docker.internal:8001/metrics"
+    }
+  ]
+}

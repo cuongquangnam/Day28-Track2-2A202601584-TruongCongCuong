@@ -1,0 +1,4 @@
+{
+  "status": "UNVERIFIED",
+  "detail": "Local tracing is running, but full required span chain needs full journey through gateway, Kafka, Airflow, Spark, Feast, Qdrant, MLflow and vLLM."
+}

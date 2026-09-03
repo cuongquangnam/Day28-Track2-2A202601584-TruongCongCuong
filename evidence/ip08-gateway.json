@@ -1,0 +1,62 @@
+{
+  "status": "READY",
+  "gateway_url": "http://localhost:8080",
+  "healthy_sample": {
+    "status_code": 200,
+    "headers": {
+      "date": "Thu, 03 Sep 2026 15:04:15 GMT",
+      "server": "envoy",
+      "content-length": "40",
+      "content-type": "application/json",
+      "x-lab28-trace-id": "00000000000000000000000000000000",
+      "x-envoy-upstream-service-time": "2",
+      "x-request-id": "e8683fcd-4619-9dc6-bb6d-0b2b4c072670",
+      "connection": "close",
+      "x-envoy-decorator-operation": "lab28.gateway.request"
+    },
+    "body": "{\"status\":\"alive\",\"service\":\"lab28-api\"}"
+  },
+  "burst_status_codes": [
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429,
+    429
+  ],
+  "sample_429": {
+    "status_code": 429,
+    "headers": {
+      "x-request-id": "6655cf67-e4b3-9ddd-ba5f-16957ee2abf0",
+      "x-lab28-rate-limited": "true",
+      "content-length": "18",
+      "content-type": "text/plain",
+      "date": "Thu, 03 Sep 2026 15:04:16 GMT",
+      "server": "envoy",
+      "connection": "close",
+      "x-envoy-decorator-operation": "lab28.gateway.request"
+    },
+    "body": "local_rate_limited"
+  },
+  "has_x_request_id_on_200": true,
+  "has_x_request_id_on_429": true
+}

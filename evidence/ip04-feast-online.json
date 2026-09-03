@@ -1,0 +1,4 @@
+{
+  "status": "UNVERIFIED",
+  "detail": "Feast server is healthy, but online rows require Airflow/Spark materialization from Delta."
+}

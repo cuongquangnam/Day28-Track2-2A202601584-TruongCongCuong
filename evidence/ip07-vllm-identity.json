@@ -1,0 +1,11 @@
+{
+  "reachable": true,
+  "version": null,
+  "served_models": [],
+  "vllm_metric_names": [],
+  "vllm_metric_count": 0,
+  "is_real_vllm": false,
+  "detail": "/version returned 404; /v1/models returned 404; /metrics returned 404",
+  "status": "UNVERIFIED",
+  "submission_note": "No real GPU-backed vLLM endpoint is configured for this local run."
+}
